@@ -7,8 +7,7 @@
 using namespace std;
  
 // Function to check if target is a subsequence of string S
-void checkforSubsequence(string S,
-                         string target)
+void checkforSubsequence(string S,  string target)
 {
  
     // Declare a stack
