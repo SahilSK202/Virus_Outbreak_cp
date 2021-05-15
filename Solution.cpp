@@ -6,8 +6,7 @@
 
 using namespace std;
  
-// Function to check if target
-// is a subsequence of string S
+// Function to check if target is a subsequence of string S
 void checkforSubsequence(string S,
                          string target)
 {
@@ -15,8 +14,7 @@ void checkforSubsequence(string S,
     // Declare a stack
     stack<char> s;
  
-    // Push the characters of
-    // target into the stack
+    // Push the characters of target into the stack
     for (int i = 0; i < target.size(); i++) {
         s.push(target[i]);
     }
@@ -31,8 +29,7 @@ void checkforSubsequence(string S,
             return;
         }
  
-        // if S[i] is same as the
-        // top of the stack
+        // if S[i] is same as the top of the stack
         if (S[i] == s.top()) {
  
             // Pop the top of stack
